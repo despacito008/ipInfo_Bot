@@ -9,7 +9,9 @@
 pip3 install -r requirements.txt
 ```
 
-## 填入对应API
+## 配置
+
+填入对应API
 
 [注册114link](http://www.link114.cn/do.php?type=register)
 
