@@ -31,4 +31,6 @@ pip3 install -r requirements.txt
 ```
 
 ps：可通过`screen`或`nohup`实现持续运行
+
+我的BOT：*@IP_INFOS_BOT*
  
