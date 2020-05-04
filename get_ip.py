@@ -1,13 +1,13 @@
 import httplib2
 import json
 from urllib.parse import urlencode
-from config import link114_sign
+from config import link114_id, link114_sign
 
 
 def api_get_ip(url):
     print("进入函数，查看取得的URL")
     print(url)
-    params = urlencode({'func':'ip', 'site':url, 'id':'6851', 'sign':link114_sign, 'signtype':'1'})
+    params = urlencode({'func':'ip', 'site':url, 'id':link114_id, 'sign':link114_sign, 'signtype':'1'})
     API_URl = 'http://api.link114.cn/get.php?'+params
     http = httplib2.Http()
     response, content = http.request(API_URl,'GET',headers={})
