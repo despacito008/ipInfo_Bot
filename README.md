@@ -11,6 +11,8 @@ pip3 install -r requirements.txt
 
 ## 填入对应API
 
+[注册114link](http://www.link114.cn/do.php?type=register)
+
 修改`config.py`中的`TOKEN`、`link114_id`以及`link114_sign`
 
 其中
