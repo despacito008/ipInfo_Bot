@@ -11,9 +11,12 @@ pip3 install -r requirements.txt
 
 ## 填入对应API
 
-修改`config.py`中的`TOKEN`以及 `link114_sign`
+修改`config.py`中的`TOKEN`、`link114_id`以及`link114_sign`
 
-其中`TOKEN`为Telegram Bot的API、`link114_sign`为link114的api key
+其中
+`TOKEN`为Telegram Bot的API
+`link114_id`为link114的api id
+`link114_sign`为link114的api key
 
 *114link的api接口需要充值，但是很便宜*
 
